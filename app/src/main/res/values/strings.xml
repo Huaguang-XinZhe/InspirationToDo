@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">灵光</string>
+    <string name="to_do">待办</string>
+    <string name="inspiration">灵感</string>
+    <string name="please_edit_here">在这儿清空你脑中的想法吧……</string>
+    <string name="delete">删除</string>
+    <string name="top">置顶</string>
+    <string name="hua_guang">华光</string>
+    <string name="remind">提醒</string>
+    <string name="_30">30</string>
+    <string name="h3">H3</string>
+    <string name="bold">*</string>
+    <string name="block">`</string>
+    <string name="quote"><![CDATA[>]]></string>
+</resources>

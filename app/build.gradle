@@ -1,0 +1,81 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 31
+
+    buildFeatures.dataBinding = true
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        applicationId "com.liuzhihui.cao2"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation files('libs\\litepal.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Toasty
+    implementation 'com.github.GrenderG:Toasty:1.5.2'
+
+    // BRV
+    implementation 'com.github.liangjingkanji:BRV:1.3.31'
+
+    // 圆角 ImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Glance
+    debugImplementation 'com.guolindev.glance:glance:1.1.0'
+
+    // Markdown
+    implementation 'io.noties.markwon:core:4.6.2'
+    implementation 'io.noties.markwon:editor:4.6.2'
+    implementation 'io.noties.markwon:inline-parser:4.6.2'
+
+    //TextView-LinkBuilder
+    implementation 'com.klinkerapps:link_builder:2.0.5'
+
+    // SlantedTextView
+    implementation 'com.haozhang.libary:android-slanted-textview:1.2'
+
+    // 基础依赖包，必须要依赖
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+    // fragment快速实现（可选）
+    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
+    // kotlin扩展（可选）
+    implementation 'com.gyf.immersionbar:immersionbar-ktx:3.0.0'
+}

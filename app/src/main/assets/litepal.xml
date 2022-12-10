@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="checklist"/>
+    <version value="5"/>
+    <list>
+        <mapping class="com.liuzhihui.cao.model.ToDo"/>
+        <mapping class="com.liuzhihui.cao.model.Confuse"/>
+        <mapping class="com.liuzhihui.cao.model.Inspiration"/>
+        <mapping class="com.liuzhihui.cao.model.Remind"/>
+        <mapping class="com.liuzhihui.cao.model.Alarm"/>
+    </list>
+</litepal>
