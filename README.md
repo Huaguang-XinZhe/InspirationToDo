@@ -1,7 +1,7 @@
 # InspirationToDo
 灵光待办
 
-<div style="display: flex; justify-content: space-around">
+<div style="width: 100%; display: flex; justify-content: space-around">
   <img
     src="https://image-bed-1315938829.cos.ap-nanjing.myqcloud.com/Screenshot_2024-02-14-13-19-54-50_ea834d5b07f84149fe5b1bf9a5ffd9a3.jpg"
     alt="#"
@@ -26,7 +26,7 @@
 
 
 
-<div style="display: flex; justify-content: space-around">
+<div style="width: 100%; display: flex; justify-content: space-around">
   <img
     src="https://image-bed-1315938829.cos.ap-nanjing.myqcloud.com/Screenshot_2024-02-14-13-20-06-84_ea834d5b07f84149fe5b1bf9a5ffd9a3.jpg"
     alt="#"
